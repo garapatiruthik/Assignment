@@ -1,0 +1,51 @@
+print('1Q. How do you comment code in python ? What are the different types of comments.\nAns. To comment code in python we put a hash before writing the sentence or we will write the sentence between triple phrases.\nThere are two types of comments single line comment and multi line comment. The single line comment can be written using hash before the comment.\nA multi line comment can be written between triple phrases or can also be written usin hash in each line of the comment.')
+#This is my first comment
+'''This is a multi line
+comment written in two lines'''
+print('\n2Q. What are variables in python. how to declare and assign values to variables')
+print('Ans. Variables are the names which some values, by default string or a declared data type by type casting.\nTo declare a variable just give a name at the beginning of a line and assign a value use an assignment operator which is an "=" sign and on the right hand side give the value to be stored in the variable.\nexample a=5 after printing a we get:')
+a=5
+print(a)
+print('\n3Q.How do you convert one datatype to another in python?')
+print('Ans. To convert one data type to another we will do by type casting by an integer value for a and taking another variable b to convert the value of a to float') 
+a=5
+type(a)
+b=float(a)
+print(b)
+type(b)
+print('\n4Q. How do you write and execute a python script from the command line?')
+print('\n5Q. Given a list my_list=[1,2,3,4,5], write the code to slice the list and obtain the sub-list[2,3].')
+print('Ans. Here is the required slice of the list')
+my_list=[1,2,3,4,5]
+my_list[1:3:1]
+print('\n6Q. What is acomplex number in mathematics. How it is represented in python?')
+print('Ans. A complex number is a combination of a real and imaginary number. It is in the form a+bj ,where a is the real part and b is the imaginary part.')
+x=2+2j
+print(x)
+type(x)
+print(x.real)
+print(x.imag)
+print('\n7Q. What is the correct way to declare avariable named age and assign a value 25 to it.')
+print('Ans. First write the name age in the left side then put an assignment operator equals to , on the right side write the value 25. The value 25 is hence assigned to the variable named age')
+age=25
+print(age)
+type(age)
+print('\n8Q. Declare a variable price and assign a value 9.99 to it. Which data type it belongs to?')
+print('Ans. The data type of the variable price whose value is 9.99 is:')
+price=9.99
+type(price)
+print('\n9Q. Create a variable named name and assign your full name to it as a string. How would you print the value of this variable?')
+print('Ans. Assign your name within quotes and then use print to print the name. The name is:')
+name='Garapati Ruthik'
+print(name)
+print('\n10Q. Given the string "Hello ,World!", extract the substring world.')
+string= 'Hello ,World!'
+print('Ans. the required substring is:')
+string[-6:-1:]
+print('\n11Q. Create a variable named "is_student" and assign it a boolean value indicating whether you are currently a student or not.')
+is_student=True
+print('Ans. We assigned the value as "True". Then the output is:')
+if is_student==1:
+  print('You are currently a student')
+else:
+  print('You are not a student')
