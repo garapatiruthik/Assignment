@@ -14,6 +14,7 @@ b=float(a)
 print(b)
 type(b)
 print('\n4Q. How do you write and execute a python script from the command line?')
+print('Create a new file and save it with a .py extension. For example, you can save it as script.py. Open a command prompt or terminal window.Navigate to the directory where your Python script is saved. You can use the cd command to change directories. For example, if your script is saved on the desktop, you can navigate to the desktop using the following command:Once you are in the correct directory, you can execute the Python script using the python command followed by the name of your script file. For example:If you have multiple versions of Python installed on your system, you may need to specify the version explicitly, such as python3 instead of python, depending on your setup.Press Enter to execute the command. Your Python script will be executed, and any output or results will be displayed in the command prompt or terminal window.')
 print('\n5Q. Given a list my_list=[1,2,3,4,5], write the code to slice the list and obtain the sub-list[2,3].')
 print('Ans. Here is the required slice of the list')
 my_list=[1,2,3,4,5]
